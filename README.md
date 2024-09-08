@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15690121&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# Falta de Acessibilidade, uma preocupação humanitária.
 
 `CURSO: Sistemas de Informação`
 
@@ -7,20 +7,22 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo é criar uma solução de paginação simples que permita aos usuários identificar áreas com deficiência de acessibilidade em um mapa. Por exemplo, em Belo Horizonte, muitas localidades carecem de rampas para cadeirantes e guias táteis para deficientes visuais, além de apresentarem passeios elevados que podem ser perigosos.
+O sistema permitirá que os usuários adicionem fotos, localizações e comentários sobre esses pontos problemáticos. Posteriormente, o programa irá gerar um mapa interativo onde irá mostrar essas áreas com deficiências de acessibilidade, ajudando ao governo a visualizar e entender melhor as necessidades de melhorias.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Larissa Maira Santos Oliveira
+* Luiz Otavio Vitor Ferreira
+* Matheus Iaze Mazzoni
+* Victor Hugo Bertoni Alves
+* Vitor Guimarães Pessoa Santos
+* Vitor Ipiranga Rebouças
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nesley Jesus Daher de Oliveira
 
 # Planejamento
 

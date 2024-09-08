@@ -8,22 +8,34 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Larissa Maira
+    family-names: Santos Oliveira
+    email: larissa.oliveira.1563044@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
+  - given-names: Luiz Otavio
+    family-names: Vitor Ferreira
+    email: 1388397@sga.pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+  - given-names: Matheus
+    family-names: Iaze Mazzoni
+    email: matheus.iaze@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Victor Hugo
+    family-names: Bertoni Alves
+    email: vhbalves@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Vitor
+    family-names: Guimarães Pessoa Santos
+    email: vgpsantos@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Vitor
+    family-names: Ipiranga Rebouças
+    email: 1564097@sga.pucminas.br
+    affiliation: PUC Minas
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-t2_gp02
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  O objetivo é criar uma solução de paginação simples que permita aos usuários identificar áreas com deficiência de acessibilidade em um mapa. Por exemplo, em Belo Horizonte, muitas localidades carecem de rampas para cadeirantes e guias táteis para deficientes visuais, além de apresentarem passeios elevados que podem ser perigosos. O sistema permitirá que os usuários adicionem fotos, localizações e comentários sobre esses pontos problemáticos. Posteriormente, o programa irá gerar um mapa interativo onde irá mostrar essas áreas com deficiências de acessibilidade, ajudando ao governo a visualizar e entender melhor as necessidades de melhorias.
 keywords:
   - Desenvolvimento Web
   - HTML
