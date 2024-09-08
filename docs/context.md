@@ -1,54 +1,22 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A falta de acessibilidade na mobilidade urbana é uma realidade na vida de milhares de pessoas ao redor do mundo. Pensando somente no Brasil, essa situação não é diferente e se manifesta nas irregularidades das calçadas, na falta de rampas de acesso para cadeirantes, na precarização de guias nas calçadas para deficientes visuais, dentre outros inúmeros cenários.
+Segundo uma pesquisa feita pela PNAD Contínua Pessoas com Deficiência em 2022, publicada pelo portal de notícias do IBGE, observa-se no gráfico (1) um número significativo de pessoas com deficiência no Brasil.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+<div style="display:flex;justify-content:center;margin-bottom:3rem;margin-top:3rem">
+  <img title="Gráfico IBGE" alt="Gráfico IBGE" src="./img/context-ibge.png">
+</div>
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+Embora o país seja uma economia emergente dentre seus pares na América do Sul, essa falta de acesso respeitoso aos deficientes físicos é observada principalmente nos grandes centros urbanos, onde se concentram as pesquisas acerca do assunto em diversas publicações nos últimos 10 anos.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Um estudo realizado pela “Mobilize Brasil” mostrou que nenhuma das 27 capitais brasileiras possuem uma estrutura suficientemente adequada que permita a livre circulação de todos os segmentos de pedestres em suas ruas.
 
-## Problema
+A partir do contexto apresentado, é possível fazer os seguintes questionamentos: Qual a importância de informar à população sobre locais que podem apresentar dificuldades no acesso à mobilidade urbana? Qual a importância de denunciar esses lugares? Qual o impacto gerado pela falta de acessibilidade?
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+A coleta e análise dos dados obtidos com a aplicação proposta neste projeto pode representar um grande passo na construção de uma sociedade mais inclusiva e mais preparada para atender as necessidades de qualquer pessoa, proporcionando uma melhor qualidade de vida para a população em geral.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Diante dos resultados obtidos com o estudo, esse projeto se apresenta como uma contribuição para a solução do problema. A proposta é oferecer à população uma plataforma onde elas possam denunciar pontos específicos da cidade onde sejam identificados aspectos que caracterizam uma situação de falta de acessibilidade quanto à mobilidade urbana. Além disso, a plataforma pode ser acessada pela população vulnerável ao problema com o objetivo de mantê-los informados acerca desses lugares.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Para atingir esse objetivo será feito um levantamento de aspectos que caracterizam um espaço inadequado, permitindo maior clareza sobre os diferentes tipos de impedimentos presentes nas ruas. Por outro lado, faz-se necessário estabelecer uma categorização dos indivíduos impactados por essas circunstâncias, dessa forma os dados levantados poderão ser analisados com maior precisão e ênfase nas necessidades específicas de cada pessoa.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-## Objetivos
-
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Dentro do escopo do projeto, buscamos incluir e representar as necessidades de alguns grupos de pessoas como, os cadeirantes, os idosos, os deficientes visuais e, no geral, todas as pessoas com mobilidade reduzida.
