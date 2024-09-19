@@ -6,7 +6,7 @@
   <img title="Gráfico IBGE" alt="Gráfico IBGE" src="./img/diagrama.png">
 </div>
 
-## Histórias de Usuários
+## Diagrama de Personas
 
 | EU COMO | QUERO/PRECISO | PARA |
 |--------------------|------------------------------------|----------------------------------------|
@@ -16,18 +16,30 @@
 | ADMINISTRADOR | Ter acesso a todas as informações de cada denúncia. | Processar e analisar esses dados |
 | ADMINISTRADOR | Publicar dados que gerem publicidade ao problema diante do poder público | Cobrar uma resposta diante do problema exposto pelo USUÁRIO. |
 
+## Histórias de Usuários
+
+- Meu nome é Maria, tenho 23 anos, sou deficiente visual, todos os dias lido com situações de falta de acessibilidade indo ao trabalho, ruas sem guias para cegos, guias pouco planejadas e obstáculos próximos as guias. Sempre dependo muito das pessoas serem empáticas e me auxiliarem no trajeto. Perco minha privacidade e minha independência pela falta do olhar do poder público as pessoas com o mesmo problema.
+
+- Carlos, 38 anos, deficiente paraplegia. No dia-a-dia sempre encontro situação que me colocam em risco, ando praticamente na rua na maioria das principais ruas e avenidas na região metropolitana de Belo Horizonte. Rampas mal feitas próximo a esquinas e perto de bueiros, sistemas de drenagem, situações que colocam em xeque a mobilidade da cadeira, passeios elevados, muito obstáculos, alguns a se comentar lixos e obras são comuns. Queria poder denunciar o descaso e melhorar a vida das pessoas assim como eu que possuem essas limitações.
+
+- Sabrina, 63 anos, dona de casa, possui baixa mobilidade, desgate nas articulações, e reclama da falta de Acessibilidade ao idoso e o descaso da prefeitura com essa população.
+
 ## Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                       | Prioridade |
-| ------ | ------------------------------------------------------------ | ---------- |
-| RF-001 | Cadastrar uma denúncia                                       | ALTA       |
-| RF-002 | Registrar uma imagem do local da denúncia                    | ALTA       |
-| RF-003 | Listar todas as denúncias                                    | MÉDIA      |
-| RF-004 | Listar denúncias por usuário                                 | MÉDIA      |
-| RF-005 | Listar denúncias por prefeitura                              | MÉDIA ALTA |
-| RF-006 | Listar denúncias por estados                                 | MÉDIA      |
-| RF-007 | Acessar informações sobre a denúncia                         | ALTA       |
-| RF-008 | Acessar diversas estatísticas baseadas nos dados cadastrados | MÉDIA      |
+| ID     | Descrição do Requisito                                           | Prioridade |
+| ------ | -----------------------------------------------------------------| ---------- |
+| RF-001 | Permitir com que o usuário faça Login                            | ALTA       |
+| RF-002 | Permitir com que o usuário faça Logout                           | ALTA       |
+| RF-003 | Cadastrar uma denúncia                                           | ALTA       |
+| RF-004 | Registrar uma imagem do local da denúncia                        | ALTA       |
+| RF-005 | Listar todas as denúncias                                        | MÉDIA      |
+| RF-006 | Listar denúncias por usuário                                     | MÉDIA      |
+| RF-007 | Listar denúncias por prefeitura                                  | MÉDIA      |
+| RF-008 | Listar denúncias por estados                                     | MÉDIA      |
+| RF-009 | Acessar informações sobre a denúncia                             | ALTA       |
+| RF-010 | Acessar diversas estatísticas baseadas nos dados cadastrados     | MÉDIA      |
+| RF-011 | Acessar mais informações sobre o projeto                         | BAIXA      |
+| RF-012 | Acessar informações de contato com os administradores do projeto | BAIXA      |
 
 ## Requisitos Não Funcionais
 
@@ -39,6 +51,6 @@
 | RNF-004 | A aplicação deve ser responsiva                                                               | BAIXA      |
 | RNF-005 | A aplicação deve responder às solicitações e requisitos em no máximo 15s                      | MÉDIA      |
 
-## Restrições do Projeto
+## Delimitação do Projeto
 
-Este projeto se delimita na coleta dos dados obtidos através das denúncias feitas pelos usuários. Com esses dados, será possível analisar de forma mais precisa as necessidades específicas de cada usuário e desenvolver planos de solução pensando nos problemas mais recorrentes. Além disso, os dados podem ficar disponíveis para consulta dos indivíduos mais afetados pelo problema. Serão gerados boletins informativos para publicitar o problema.
+O projeto vai coletar, análisar e exibir os dados proporcionados pelos usuários sobre a falta de acessibilidade na mobilidade urbana no Brasil.
