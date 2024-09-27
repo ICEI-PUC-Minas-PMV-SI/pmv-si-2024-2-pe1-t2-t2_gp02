@@ -28,18 +28,19 @@
 
 | ID     | Descrição do Requisito                                           | Prioridade |
 | ------ | -----------------------------------------------------------------| ---------- |
-| RF-001 | Permitir com que o usuário faça Login                            | ALTA       |
-| RF-002 | Permitir com que o usuário faça Logout                           | ALTA       |
-| RF-003 | Cadastrar uma denúncia                                           | ALTA       |
-| RF-004 | Registrar uma imagem do local da denúncia                        | ALTA       |
-| RF-005 | Listar todas as denúncias                                        | MÉDIA      |
-| RF-006 | Listar denúncias por usuário                                     | MÉDIA      |
-| RF-007 | Listar denúncias por prefeitura                                  | MÉDIA      |
-| RF-008 | Listar denúncias por estados                                     | MÉDIA      |
-| RF-009 | Acessar informações sobre a denúncia                             | ALTA       |
-| RF-010 | Acessar diversas estatísticas baseadas nos dados cadastrados     | MÉDIA      |
-| RF-011 | Acessar mais informações sobre o projeto                         | BAIXA      |
-| RF-012 | Acessar informações de contato com os administradores do projeto | BAIXA      |
+| RF-001 | Permitir com que o usuário se Cadastre                           | ALTA       |
+| RF-002 | Permitir com que o usuário faça Login                            | ALTA       |
+| RF-003 | Permitir com que o usuário faça Logout                           | ALTA       |
+| RF-004 | Cadastrar uma denúncia                                           | ALTA       |
+| RF-005 | Registrar uma imagem do local da denúncia                        | ALTA       |
+| RF-006 | Listar todas as denúncias                                        | MÉDIA      |
+| RF-007 | Listar denúncias por usuário                                     | MÉDIA      |
+| RF-008 | Listar denúncias por prefeitura                                  | MÉDIA      |
+| RF-009 | Listar denúncias por estados                                     | MÉDIA      |
+| RF-010 | Acessar informações sobre a denúncia                             | ALTA       |
+| RF-011 | Acessar diversas estatísticas baseadas nos dados cadastrados     | MÉDIA      |
+| RF-012 | Acessar mais informações sobre o projeto                         | BAIXA      |
+| RF-013 | Acessar informações de contato com os administradores do projeto | BAIXA      |
 
 ## Requisitos Não Funcionais
 
