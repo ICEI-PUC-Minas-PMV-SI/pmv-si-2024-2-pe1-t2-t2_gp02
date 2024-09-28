@@ -1,36 +1,13 @@
-# Template padrão do site
+# Template Padrão do Site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+<div style="display:flex;justify-content:center;margin-bottom:2rem">
+  <img src="./img/tela-inicial.png" style="width:15rem;text-align:center"></img>
+</div>
 
-Explique as guias de estilo utilizadas no seu projeto.
+<p style="text-align:center">O código HTML e CSS do template padrão está na pasta "src"</p>
 
-## Design
+## Documento de Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+[PDF do Documento de Template Padrão](https://sgapucminasbr-my.sharepoint.com/personal/1563044_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EXlA8gS2PvNIkRrqDKSX8gwB-uPFAZ5CS4BWQLSstQRoug&e=cRTpZ9)
 
-
-## Cores
-
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
-
-
-## Tipografia
-
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
-
-## Iconografia
-
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+[Apresentação de Slides do Design - FIGMA](https://www.figma.com/design/Cs52PCbXeXXvy4KBChrUPa/E1---Template?m=auto&t=sTuan2CXd2pMO2L8-1)
