@@ -1,12 +1,13 @@
 ## Requisitos X Código Estático
 
--Página Inicial
+Página Inicial
 
--Requisitos:
+Requisitos:
 
--Header
+Header
 
--Html
+Html
+
 <section class="menu-container" style="display: none;">
       <div class="menu-header">
         <h2>Menu</h2>
@@ -33,6 +34,7 @@
 </section>
 
 CSS
+
 header {
  height: 4.25rem;
  display: flex;
