@@ -41,6 +41,10 @@
 | RF-011 | Acessar diversas estatísticas baseadas nos dados cadastrados     | MÉDIA      |
 | RF-012 | Acessar mais informações sobre o projeto                         | BAIXA      |
 | RF-013 | Acessar informações de contato com os administradores do projeto | BAIXA      |
+| RF-014 | Permitir visualização do mapa| ALTA       |
+| RF-015 | Permitir interação com o mapa| ALTA       |
+
+
 
 ## Requisitos Não Funcionais
 
