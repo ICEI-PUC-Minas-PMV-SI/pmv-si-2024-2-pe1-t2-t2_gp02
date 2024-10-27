@@ -1,12 +1,8 @@
-## Requisitos X Código Estático
+#Requisitos X Código Estático
 
-Página Inicial
+##Header
 
-Requisitos:
-
-Header
-
-Html
+###Html
 
 <section class="menu-container" style="display: none;">
       <div class="menu-header">
@@ -33,7 +29,7 @@ Html
       </nav>
 </section>
 
-CSS
+###CSS
 
 header {
  height: 4.25rem;
@@ -43,19 +39,18 @@ header {
  padding: 0 1.5rem;
 }
 
-Botão de Menu
+##Botão de Menu
 
-Requisitos:
+###Html
 
-
-Html
-..
+...
 <button id="abrir-menu">
         <img src="../public/icons/menu2-icon.svg" alt="Ícone de Menu Principal">
       </button>
 ...
 
-CSS
+###CSS
+
 element.style {
 }
 index.css:21
@@ -126,41 +121,43 @@ index.css:1
 --gray: #EEEEEE;
 }
 
-Logo
+##Logo
 
-Requisitos:
+###Html
 
-
-Html
 ...
 <button>
         <img src="../public/img/logo-img.png" alt="Logo da Aplicação">
       </button>
 
-CSS
+###CSS
+
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
-Usuário
 
-Requisitos:
-RF-001	Permitir com que o usuário se Cadastre	ALTA
-RF-002	Permitir com que o usuário faça Login	ALTA
-RF-003	Permitir com que o usuário faça Logout	ALTA
+##Usuário
 
-Html
+###Requisitos:
+| RF-001	| Permitir com que o usuário se Cadastre | 	ALTA |
+| RF-002 |	Permitir com que o usuário faça Login	| ALTA |
+| RF-003 | 	Permitir com que o usuário faça Logout	 | ALTA |
+
+###Html
+
 <button id="abrir-perfil">
         <img src="../public/icons/perfil-icon.svg" alt="Ícone do Menu Usuário">
       </button>
 
-BODY
+##BODY
 
-Requisitos:
-RF-0014	Permitir visualização do mapa	ALTA
-RF-0015	Permitir interação com o mapa	ALTA
+###Requisitos:
+| RF-0014	| Permitir visualização do mapa | 	ALTA |
+| RF-0015 | 	Permitir interação com o mapa |	ALTA |
 
-Html
+###Html
+
 <main>
       <img class="imagem-mapa" src="../public/img/map.png" alt="">
       <nav>
@@ -176,7 +173,7 @@ Html
       </nav>
 </main>
 
-CSS
+###CSS
 
     --main: #000000;
     --white: #FFFFFF;
@@ -196,14 +193,15 @@ CSS
     justify-self: center;
     object-fit: cover;
 
-Menu Navegação Lateral
+##Menu Navegação Lateral
 
 Requisitos:
-RF-004	Cadastrar uma denúncia	ALTA
-RF-005	Registrar uma imagem do local da denúncia	ALTA
-RF-004	Cadastrar uma denúncia	ALTA
+| RF-004 | 	Cadastrar uma denúncia |	ALTA |
+| RF-005 | 	Registrar uma imagem do local da denúncia	 | ALTA |
+| RF-004	| Cadastrar uma denúncia	| ALTA |
 
-Html
+###Html
+
 <nav>
         <a href="pesquisar.html">
           <img src="../public/icons/pesquisar-icon.svg" alt="">
@@ -216,7 +214,8 @@ Html
         </a>
       </nav>
 
-CSS
+###CSS
+
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -232,12 +231,13 @@ CSS
     gap: 1rem;
     padding: 1.5rem;
 
-Página Nova Denúcia
+##Página Nova Denúcia
 
-Requisitos:
-RF-004	Cadastrar uma denúncia	ALTA
+###Requisitos:
+| RF-004	| Cadastrar uma denúncia| 	ALTA |
 
-Html
+###Html
+
 <div class="nova-denuncia-card">
         <div class="nova-denuncia-header">
           <h2>Nova Denúncia</h2>
@@ -290,7 +290,8 @@ Html
         </div>
       </div>
 
-CSS
+###CSS
+
      --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -310,14 +311,15 @@ CSS
     overflow-x: hidden;
     max-height: 90%; 
 
-Página Informações
+##Página Informações
 
 Requisitos:
 RF-013	Acessar informações de contato com os administradores do projeto	BAIXA
 Requisitos Não Funcionais
 
 
-Html
+###Html
+
 <div class="info-card">
         <div class="info-header">
           <h2>Informações</h2>
@@ -344,7 +346,8 @@ Html
         </div>
       </div>
 
-CSS
+###CSS
+
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -354,18 +357,19 @@ CSS
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
 
-Página Pesquisa
+##Página Pesquisa
 
 Requisitos:
-RF-006	Listar todas as denúncias	MÉDIA
-RF-007	Listar denúncias por usuário	MÉDIA
-RF-008	Listar denúncias por prefeitura	MÉDIA
-RF-009	Listar denúncias por estados	MÉDIA
-RF-010	Acessar informações sobre a denúncia	ALTA
-RF-011	Acessar diversas estatísticas baseadas nos dados cadastrados	MÉDIA
-RF-012	Acessar mais informações sobre o projeto	BAIXA
+| RF-006 |	Listar todas as denúncias	 | MÉDIA |
+| RF-007 |	Listar denúncias por usuário | 	MÉDIA |
+| RF-008	| Listar denúncias por prefeitura |	MÉDIA |
+| RF-009 |	Listar denúncias por estados |	MÉDIA |
+| RF-010	| Acessar informações sobre a denúncia	| ALTA |
+| RF-011	| Acessar diversas estatísticas baseadas nos dados cadastrados |	 MÉDIA |
+| RF-012 |	Acessar mais informações sobre o projeto	| BAIXA |
 
-Html
+###Html
+
 <section class="resultados-container">
         <div class="resultado">
           <h3 class="resultado-titulo">titulo</h3>
@@ -390,7 +394,8 @@ Html
         </div>
       </section>
 
-CSS
+###CSS
+
   --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -411,13 +416,13 @@ CSS
     font-size: 1rem;
 
 
-Página Fale conosco
+##Página Fale conosco
 
-Requisitos:
-RF-013	Acessar informações de contato com os administradores do projeto	BAIXA
-Requisitos Não Funcionais
+###Requisitos:
+| RF-013	| Acessar informações de contato com os administradores do projeto | 	BAIXA |
 
-Html
+###Html
+
 <div class="contato-card">
         <div class="contato-header">
           <h2>Fale Conosco</h2>
@@ -441,7 +446,8 @@ Html
         </div>
       </div>
 
-CSS
+###CSS
+
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
