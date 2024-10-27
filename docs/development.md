@@ -4,7 +4,7 @@
 
 ###Html
 
-<section class="menu-container" style="display: none;">
+'<section class="menu-container" style="display: none;">
       <div class="menu-header">
         <h2>Menu</h2>
         <button id="fechar-menu">
@@ -27,7 +27,7 @@
           <p>Fale Conosco</p>
         </a>
       </nav>
-</section>
+</section>'
 
 ###CSS
 
