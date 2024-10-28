@@ -150,6 +150,7 @@ img {
 
 ###Requisitos:
 
+| Requisito | Função | Autoridade |
 | RF-001	| Permitir com que o usuário se Cadastre | 	ALTA |
 | RF-002 |	Permitir com que o usuário faça Login	| ALTA |
 | RF-003 | 	Permitir com que o usuário faça Logout	 | ALTA |
