@@ -33,6 +33,7 @@
 
 ###CSS
 
+```
 header {
  height: 4.25rem;
  display: flex;
@@ -40,19 +41,21 @@ header {
  justify-content: space-between;
  padding: 0 1.5rem;
 }
+```
 
 ##Botão de Menu
 
 ###Html
 
-...
+```
 <button id="abrir-menu">
         <img src="../public/icons/menu2-icon.svg" alt="Ícone de Menu Principal">
       </button>
-...
+```
 
 ###CSS
 
+```
 element.style {
 }
 index.css:21
@@ -122,44 +125,53 @@ index.css:1
 --white: #FFFFFF;
 --gray: #EEEEEE;
 }
+```
 
 ##Logo
 
 ###Html
 
-...
+```
 <button>
         <img src="../public/img/logo-img.png" alt="Logo da Aplicação">
       </button>
+```
 
 ###CSS
 
+```
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+```
 
 ##Usuário
 
 ###Requisitos:
+
 | RF-001	| Permitir com que o usuário se Cadastre | 	ALTA |
 | RF-002 |	Permitir com que o usuário faça Login	| ALTA |
 | RF-003 | 	Permitir com que o usuário faça Logout	 | ALTA |
 
 ###Html
 
+```
 <button id="abrir-perfil">
         <img src="../public/icons/perfil-icon.svg" alt="Ícone do Menu Usuário">
       </button>
+```
 
 ##BODY
 
 ###Requisitos:
+
 | RF-0014	| Permitir visualização do mapa | 	ALTA |
 | RF-0015 | 	Permitir interação com o mapa |	ALTA |
 
 ###Html
 
+```
 <main>
       <img class="imagem-mapa" src="../public/img/map.png" alt="">
       <nav>
@@ -174,9 +186,11 @@ img {
         </a>
       </nav>
 </main>
+```
 
 ###CSS
 
+```
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -194,16 +208,19 @@ img {
     align-items: center;
     justify-self: center;
     object-fit: cover;
+```
 
 ##Menu Navegação Lateral
 
 Requisitos:
+
 | RF-004 | 	Cadastrar uma denúncia |	ALTA |
 | RF-005 | 	Registrar uma imagem do local da denúncia	 | ALTA |
 | RF-004	| Cadastrar uma denúncia	| ALTA |
 
 ###Html
 
+```
 <nav>
         <a href="pesquisar.html">
           <img src="../public/icons/pesquisar-icon.svg" alt="">
@@ -215,9 +232,11 @@ Requisitos:
           <img src="../public/icons/mais-icon.svg" alt="">
         </a>
       </nav>
+```
 
 ###CSS
 
+```
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -232,14 +251,17 @@ Requisitos:
     flex-direction: column;
     gap: 1rem;
     padding: 1.5rem;
+```
 
 ##Página Nova Denúcia
 
 ###Requisitos:
+
 | RF-004	| Cadastrar uma denúncia| 	ALTA |
 
 ###Html
 
+```
 <div class="nova-denuncia-card">
         <div class="nova-denuncia-header">
           <h2>Nova Denúncia</h2>
@@ -291,9 +313,11 @@ Requisitos:
           </form>
         </div>
       </div>
+```
 
 ###CSS
 
+```
      --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -312,16 +336,19 @@ Requisitos:
     overflow-y: auto;
     overflow-x: hidden;
     max-height: 90%; 
+```
 
 ##Página Informações
 
 Requisitos:
+
 RF-013	Acessar informações de contato com os administradores do projeto	BAIXA
 Requisitos Não Funcionais
 
 
 ###Html
 
+```
 <div class="info-card">
         <div class="info-header">
           <h2>Informações</h2>
@@ -347,9 +374,11 @@ Requisitos Não Funcionais
           </p>
         </div>
       </div>
+```
 
 ###CSS
 
+```
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -358,10 +387,12 @@ Requisitos Não Funcionais
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
+```
 
 ##Página Pesquisa
 
 Requisitos:
+
 | RF-006 |	Listar todas as denúncias	 | MÉDIA |
 | RF-007 |	Listar denúncias por usuário | 	MÉDIA |
 | RF-008	| Listar denúncias por prefeitura |	MÉDIA |
@@ -372,6 +403,7 @@ Requisitos:
 
 ###Html
 
+```
 <section class="resultados-container">
         <div class="resultado">
           <h3 class="resultado-titulo">titulo</h3>
@@ -395,9 +427,11 @@ Requisitos:
           </div>
         </div>
       </section>
+```
 
 ###CSS
 
+```
   --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -416,15 +450,17 @@ Requisitos:
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-
+```
 
 ##Página Fale conosco
 
 ###Requisitos:
+
 | RF-013	| Acessar informações de contato com os administradores do projeto | 	BAIXA |
 
 ###Html
 
+```
 <div class="contato-card">
         <div class="contato-header">
           <h2>Fale Conosco</h2>
@@ -447,9 +483,11 @@ Requisitos:
           </div>
         </div>
       </div>
+```
 
 ###CSS
 
+```
     --main: #000000;
     --white: #FFFFFF;
     --gray: #EEEEEE;
@@ -465,5 +503,5 @@ Requisitos:
     padding: 1.5rem;
     background-color: var(--white);
     border-radius: 20px;
-
+```
 
