@@ -150,7 +150,7 @@ img {
 
 ###Requisitos:
 
-|ID|Descrição do Requisito|Prioridade|
+| ID | Descrição do Requisito | Prioridade |
 |---|---|---|
 | RF-001	| Permitir com que o usuário se Cadastre | 	ALTA |
 | RF-002 |	Permitir com que o usuário faça Login	| ALTA |
@@ -168,6 +168,8 @@ img {
 
 ###Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-0014	| Permitir visualização do mapa | 	ALTA |
 | RF-0015 | 	Permitir interação com o mapa |	ALTA |
 
@@ -214,8 +216,10 @@ img {
 
 ##Menu Navegação Lateral
 
-Requisitos:
+###Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-004 | 	Cadastrar uma denúncia |	ALTA |
 | RF-005 | 	Registrar uma imagem do local da denúncia	 | ALTA |
 | RF-004	| Cadastrar uma denúncia	| ALTA |
@@ -259,6 +263,8 @@ Requisitos:
 
 ###Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-004	| Cadastrar uma denúncia| 	ALTA |
 
 ###Html
@@ -344,8 +350,9 @@ Requisitos:
 
 Requisitos:
 
-RF-013	Acessar informações de contato com os administradores do projeto	BAIXA
-Requisitos Não Funcionais
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
+| RF-013 |	Acessar informações de contato com os administradores do projeto	 | BAIXA |
 
 
 ###Html
@@ -395,6 +402,8 @@ Requisitos Não Funcionais
 
 Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-006 |	Listar todas as denúncias	 | MÉDIA |
 | RF-007 |	Listar denúncias por usuário | 	MÉDIA |
 | RF-008	| Listar denúncias por prefeitura |	MÉDIA |
@@ -458,6 +467,8 @@ Requisitos:
 
 ###Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-013	| Acessar informações de contato com os administradores do projeto | 	BAIXA |
 
 ###Html
