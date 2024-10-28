@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/nova-denuncia.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <title>Informações</title>
+  </head>
+  <body>
+    <header>
+      <button id="abrir-menu">
+        <img
+          src="../public/icons/menu2-icon.svg"
+          alt="Ícone de Menu Principal"
+        />
+      </button>
+      <button>
+        <img src="../public/img/logo-img.png" alt="Logo da Aplicação" />
+      </button>
+      <button id="abrir-perfil">
+        <img
+          src="../public/icons/perfil-icon.svg"
+          alt="Ícone do Menu Usuário"
+        />
+      </button>
+    </header>
+    <main>
+      <img class="imagem-mapa" src="../public/img/map.png" alt="" />
+      <nav>
+        <button>
+          <img src="../public/icons/pesquisar-icon.svg" alt="" />
+        </button>
+        <button>
+          <img src="../public/icons/ponto-mapa-icon.svg" alt="" />
+        </button>
+        <button>
+          <img src="../public/icons/mais-icon.svg" alt="" />
+        </button>
+      </nav>
+    </main>
+
+    <section class="nova-denuncia-container">
+      <div class="nova-denuncia-card">
+        <div class="nova-denuncia-header">
+          <h2>Nova Denúncia</h2>
+          <a href="index.html">
+            <img src="../public/icons/fechar-icon.svg" alt="" />
+          </a>
+        </div>
+        <div class="nova-denuncia-content">
+          <form id="nova-denuncia-form">
+            <div>
+              <label>
+                <p>Título</p>
+                <input
+                  type="text"
+                  placeholder="Digite o título da denúncia"
+                  id="nova-denuncia-titulo"
+                />
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <p>Descrição</p>
+                <textarea
+                  placeholder="Descreva o ploblema encontrado"
+                  name="nova-denuncia-descricao"
+                  id="nova-denuncia-descricao"
+                ></textarea>
+              </label>
+            </div>
+
+            <div>
+              <p>Foto do Local <span>(opcional)</span></p>
+              <label for="nova-denuncia-foto">
+                <p class="nova-denuncia-foto-btn">
+                  <img src="../public/icons/imagem-icon.svg" alt="" />
+                  Selecionar Foto
+                </p>
+                <input type="file" id="nova-denuncia-foto" />
+              </label>
+              <img src="" alt="" id="preview-foto-local" />
+            </div>
+
+            <div>
+              <label>
+                <p>Localização</p>
+                <input
+                  type="text"
+                  placeholder="Digite o endereço da denúncia"
+                  id="nova-denuncia-localizacao"
+                />
+              </label>
+              <p class="localizacao-btn" id="localizacao-atual-btn">
+                <img src="../public/icons/ponto-mapa-icon-black.svg" alt="" />
+                Usar localização atual
+              </p>
+            </div>
+            <button type="button" id="nova-denuncia-btn">
+              Registrar Denúncia
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/nova-denuncia.js"></script>
+  </body>
+</html>

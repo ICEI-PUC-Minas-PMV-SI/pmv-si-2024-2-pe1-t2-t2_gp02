@@ -1,0 +1,42 @@
+:root {
+  --main: #000000;
+  --white: #FFFFFF;
+  --gray: #EEEEEE;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+a {
+  color: var(--main);
+  text-decoration: none;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
