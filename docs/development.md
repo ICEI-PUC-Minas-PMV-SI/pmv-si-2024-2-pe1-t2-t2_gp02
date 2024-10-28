@@ -1,5 +1,7 @@
 # Requisitos X Código Estático
 
+Para o código completo acesse (https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-t2_gp02/tree/main/src)
+
 ## Header
 
 ### Html
