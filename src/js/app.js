@@ -22,7 +22,7 @@ function fecharMenu() {
 let perfilAberto = false;
 document.getElementById("abrir-perfil").onclick = () => {
   if (perfilAberto) fecharPerfil()
-  else abrirPerfil()
+  else abrirPerfil()  
 }
 document.getElementById("fechar-perfil").onclick = () => {
   fecharPerfil()
