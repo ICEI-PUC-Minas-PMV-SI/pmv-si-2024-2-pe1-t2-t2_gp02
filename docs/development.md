@@ -1,8 +1,10 @@
-#Requisitos X Código Estático
+# Requisitos X Código Estático
 
-##Header
+Para o código completo acesse:  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-t2_gp02/tree/main/src
 
-###Html
+## Header
+
+### Html
 
 ```
 <section class="menu-container" style="display: none;">
@@ -31,7 +33,7 @@
 </section>
 ```
 
-###CSS
+### CSS
 
 ```
 header {
@@ -43,9 +45,9 @@ header {
 }
 ```
 
-##Botão de Menu
+## Botão de Menu
 
-###Html
+### Html
 
 ```
 <button id="abrir-menu">
@@ -53,7 +55,7 @@ header {
       </button>
 ```
 
-###CSS
+### CSS
 
 ```
 element.style {
@@ -127,9 +129,9 @@ index.css:1
 }
 ```
 
-##Logo
+## Logo
 
-###Html
+### Html
 
 ```
 <button>
@@ -137,7 +139,7 @@ index.css:1
       </button>
 ```
 
-###CSS
+### CSS
 
 ```
 img {
@@ -146,17 +148,17 @@ img {
 }
 ```
 
-##Usuário
+## Usuário
 
-###Requisitos:
+### Requisitos:
 
-|ID|Descrição do Requisito|Prioridade|
+| ID | Descrição do Requisito | Prioridade |
 |---|---|---|
 | RF-001	| Permitir com que o usuário se Cadastre | 	ALTA |
 | RF-002 |	Permitir com que o usuário faça Login	| ALTA |
 | RF-003 | 	Permitir com que o usuário faça Logout	 | ALTA |
 
-###Html
+### Html
 
 ```
 <button id="abrir-perfil">
@@ -164,14 +166,16 @@ img {
       </button>
 ```
 
-##BODY
+## BODY
 
-###Requisitos:
+### Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-0014	| Permitir visualização do mapa | 	ALTA |
 | RF-0015 | 	Permitir interação com o mapa |	ALTA |
 
-###Html
+### Html
 
 ```
 <main>
@@ -190,7 +194,7 @@ img {
 </main>
 ```
 
-###CSS
+### CSS
 
 ```
     --main: #000000;
@@ -212,15 +216,17 @@ img {
     object-fit: cover;
 ```
 
-##Menu Navegação Lateral
+## Menu Navegação Lateral
 
-Requisitos:
+### Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-004 | 	Cadastrar uma denúncia |	ALTA |
 | RF-005 | 	Registrar uma imagem do local da denúncia	 | ALTA |
 | RF-004	| Cadastrar uma denúncia	| ALTA |
 
-###Html
+### Html
 
 ```
 <nav>
@@ -236,7 +242,7 @@ Requisitos:
       </nav>
 ```
 
-###CSS
+### CSS
 
 ```
     --main: #000000;
@@ -255,13 +261,15 @@ Requisitos:
     padding: 1.5rem;
 ```
 
-##Página Nova Denúcia
+## Página Nova Denúcia
 
-###Requisitos:
+### Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-004	| Cadastrar uma denúncia| 	ALTA |
 
-###Html
+### Html
 
 ```
 <div class="nova-denuncia-card">
@@ -317,7 +325,7 @@ Requisitos:
       </div>
 ```
 
-###CSS
+### CSS
 
 ```
      --main: #000000;
@@ -340,15 +348,16 @@ Requisitos:
     max-height: 90%; 
 ```
 
-##Página Informações
+## Página Informações
 
 Requisitos:
 
-RF-013	Acessar informações de contato com os administradores do projeto	BAIXA
-Requisitos Não Funcionais
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
+| RF-013 |	Acessar informações de contato com os administradores do projeto	 | BAIXA |
 
 
-###Html
+### Html
 
 ```
 <div class="info-card">
@@ -378,7 +387,7 @@ Requisitos Não Funcionais
       </div>
 ```
 
-###CSS
+### CSS
 
 ```
     --main: #000000;
@@ -391,10 +400,12 @@ Requisitos Não Funcionais
     font-size: 1rem;
 ```
 
-##Página Pesquisa
+## Página Pesquisa
 
 Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-006 |	Listar todas as denúncias	 | MÉDIA |
 | RF-007 |	Listar denúncias por usuário | 	MÉDIA |
 | RF-008	| Listar denúncias por prefeitura |	MÉDIA |
@@ -403,7 +414,7 @@ Requisitos:
 | RF-011	| Acessar diversas estatísticas baseadas nos dados cadastrados |	 MÉDIA |
 | RF-012 |	Acessar mais informações sobre o projeto	| BAIXA |
 
-###Html
+### Html
 
 ```
 <section class="resultados-container">
@@ -431,7 +442,7 @@ Requisitos:
       </section>
 ```
 
-###CSS
+### CSS
 
 ```
   --main: #000000;
@@ -454,13 +465,15 @@ Requisitos:
     font-size: 1rem;
 ```
 
-##Página Fale conosco
+## Página Fale conosco
 
-###Requisitos:
+### Requisitos:
 
+| ID | Descrição do Requisito | Prioridade |
+|---|---|---|
 | RF-013	| Acessar informações de contato com os administradores do projeto | 	BAIXA |
 
-###Html
+### Html
 
 ```
 <div class="contato-card">
@@ -487,7 +500,7 @@ Requisitos:
       </div>
 ```
 
-###CSS
+### CSS
 
 ```
     --main: #000000;
