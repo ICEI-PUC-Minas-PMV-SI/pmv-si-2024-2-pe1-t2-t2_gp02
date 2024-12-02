@@ -1,55 +1,69 @@
-.nova-denuncia-container {
+header {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  z-index: 100;
+  background-color: var(--white);
+}
+
+header a img {
+  width: 1.5rem;
+}
+
+main {
+  margin-top: 5rem;
+  height: calc(100vh - 5rem);
+
+}
+
+.nova-denuncia-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 5rem;
+  bottom: 5rem;
+  left: 1.5rem;
+  right: 1.5rem;
+}
+
+.nova-denuncia-btn-container {
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 
-  background-color: rgb(0, 0, 0, 0.3);
-}
-
-.nova-denuncia-card {
-  width: 90%;
-
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-
+  background-color: var(--white);
   padding: 1.5rem;
 
-  background-color: var(--white);
-  border-radius: 20px;
-
-  overflow-y: auto;
-  overflow-x: hidden;
-  max-height: 95%;
-}
-
-.nova-denuncia-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-
-  margin-bottom: 1.5rem;
 }
 
-.nova-denuncia-header img {
-  width: 1.25rem;
-}
 
 .nova-denuncia-content form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1.25rem;
+
+  padding-bottom: 7rem;
 }
 
 .nova-denuncia-content form label {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+
 }
 
 .nova-denuncia-content form label span {
@@ -145,7 +159,7 @@
   width: 1rem;
 }
 
-.nova-denuncia-content form button {
+.nova-denuncia-content button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,6 +170,7 @@
   border-radius: 10px;
 
   padding: 0.75rem;
+width: 100%;
 }
 
 .msg-erro {
@@ -166,6 +181,10 @@
 
 #msg-erro-dinamica {
   text-align: center;
+}
+
+#nova-denuncia-localizacao-erro {
+  margin-top: .75rem;
 }
 
 .nova-denuncia-btn-loading-container {
@@ -181,6 +200,14 @@
   border: 5px solid rgb(0, 0, 0, 0.09);
   border-right-color: var(--main);
   animation: l2 1s infinite linear;
+}
+
+#mapa-nova-denuncia {
+  display: none;
+  height: 15rem;
+
+  margin-top: 1.5rem;
+  border-radius: 10px;
 }
 
 @keyframes l2 {

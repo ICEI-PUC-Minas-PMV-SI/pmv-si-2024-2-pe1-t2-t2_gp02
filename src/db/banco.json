@@ -1,0 +1,98 @@
+{
+  "usuarios": [
+    {
+      "id": "m1s749sfg30hxgxn6ee",
+      "nome": "Paula",
+      "email": "paula@gmail.com",
+      "senha": "paula123"
+    },
+    {
+      "id": "m1s7clnsdu2c3n3bzs7",
+      "nome": "Larissa",
+      "email": "larissa@gmail.com",
+      "senha": "larissa123"
+    },
+    {
+      "id": "m1s9u0m12rnspml7l6w",
+      "nome": "Fernanda",
+      "email": "fernanda@gmail.com",
+      "senha": "fernanda123"
+    },
+    {
+      "id": "m1sasgcsq6vqyzaqtfg",
+      "nome": "Elena",
+      "email": "elena@gmail.com",
+      "senha": "elena123"
+    },
+    {
+      "id": "m1sba5er1m85xxtfwmz",
+      "nome": "Pedro",
+      "email": "pedro@gmail.com",
+      "senha": "pedro123"
+    },
+    {
+      "id": "m1s58b0tez2sewa2ac9",
+      "nome": "Felipe",
+      "email": "felipe@gmail.com",
+      "senha": "gelipe123"
+    },
+    {
+      "id": "m1s5bqm35gu5du6zj7m",
+      "nome": "Lila",
+      "email": "lila@gmail.com",
+      "senha": "lila123"
+    },
+    {
+      "id": "m1s5z6rc1ftqnc9d3a9",
+      "nome": "Lina",
+      "email": "lina@gmail.com",
+      "senha": "lina123"
+    }
+  ],
+  "denuncias": [
+    {
+      "id": "m45tc9esmpuz02h78oe",
+      "titulo": "Calçada irregular",
+      "descricao": "A calçada está irregular e inacessível para cadeirantes",
+      "logradouro": "Rua Expedito Armando Cardoso De Melo",
+      "numero": "35",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "imagem": "",
+      "userId": "m1s7clnsdu2c3n3bzs7"
+    },
+    {
+      "id": "m45tefzjiwkc18dkgv",
+      "titulo": "Denúncia da Lila",
+      "descricao": "Descrição da denúncia da Lila",
+      "logradouro": "Rua Expedito Armando Cardoso De Melo",
+      "numero": "35",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "imagem": "",
+      "userId": "m1s5bqm35gu5du6zj7m"
+    },
+    {
+      "id": "m45vb3ikwkjjs6eruv",
+      "titulo": "Titulo da denúncia",
+      "descricao": "Descrição da denúncia",
+      "logradouro": "Rua Expedito Armando Cardoso De Melo",
+      "numero": "35",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "imagem": "",
+      "userId": "m1s5bqm35gu5du6zj7m"
+    },
+    {
+      "id": "m45vfg085xdyzqh277",
+      "titulo": "Outra denúncia",
+      "descricao": "Outra descrição da denúncia",
+      "logradouro": "Rua Manuel Aquilino Dos Santos",
+      "numero": "1080",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "imagem": "",
+      "userId": "m1s5bqm35gu5du6zj7m"
+    }
+  ]
+}

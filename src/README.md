@@ -1,11 +1,22 @@
-# Instruções de utilização
+# Pré-requisitos para rodar a aplicação
 
-## Instalação do Site
+- ### Instalar o Node/NPM
+Visitar o site do [NodeJS](https://nodejs.org/pt) e realizar o processo de instalação. Depois teste se a instalação foi bem sucedida:
+```
+npm --version
+```
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+- ### Instalar o json-server globalmente na sua máquina
+```
+npm install -g json-server
+```
 
-## Histórico de versões
+# Rodando a Aplicação
+- ### Rodando o Json-Server
+Abra a pasta "PMV-SI-2024-2-PE1-T2-T2_GP02" no seu terminal e execute o seguinte comando:
+```
+json-server ./src/db/banco.json
+```
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+- ### Rodando a aplicação
+Para rodar a aplicação basta instalar a extenção do Visual Studio Code chamada "Live Server". Depois abra o arquivo "index.html" e clique no botão "Go Live".

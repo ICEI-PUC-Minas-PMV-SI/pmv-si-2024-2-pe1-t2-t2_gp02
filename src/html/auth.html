@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,15 +38,15 @@
     <main>
       <img class="imagem-mapa" src="../public/img/map.png" alt="" />
       <nav>
-        <button>
+        <a>
           <img src="../public/icons/pesquisar-icon.svg" alt="" />
-        </button>
-        <button>
+        </a>
+        <a>
           <img src="../public/icons/ponto-mapa-icon.svg" alt="" />
-        </button>
-        <button>
+        </a>
+        <a>
           <img src="../public/icons/mais-icon.svg" alt="" />
-        </button>
+        </a>
       </nav>
     </main>
 
@@ -69,6 +72,9 @@
                 placeholder="Digite seu e-mail"
                 id="entrar-email"
               />
+              <p class="auth-msg-erro" id="entrar-email-msg">
+                Campo obrigatório
+              </p>
             </label>
             <div class="cadastrar-senha-container">
               <label for="cadastrar-senha"><p>Senha</p></label>
@@ -89,8 +95,12 @@
                   id="entrar-olho-aberto"
                 />
               </div>
+              <p class="auth-msg-erro" id="entrar-senha-msg">
+                Campo obrigatório
+              </p>
             </div>
-            <button type="button  " id="entrar-btn">Entrar</button>
+            <button type="button" id="entrar-btn">Entrar</button>
+            <p class="auth-msg-erro" id="entrar-msg-dinamica"></p>
           </form>
           <form id="cadastrar-form">
             <label>
@@ -100,6 +110,9 @@
                 placeholder="Digite seu nome"
                 id="cadastrar-nome"
               />
+              <p class="auth-msg-erro" id="cadastrar-nome-msg">
+                Campo obrigatório
+              </p>
             </label>
             <label>
               <p>E-mail</p>
@@ -108,6 +121,9 @@
                 placeholder="Digite seu e-mail"
                 id="cadastrar-email"
               />
+              <p class="auth-msg-erro" id="cadastrar-email-msg">
+                Campo obrigatório
+              </p>
             </label>
             <div class="cadastrar-senha-container">
               <label for="cadastrar-senha"><p>Senha</p></label>
@@ -128,8 +144,12 @@
                   id="cadastrar-olho-aberto"
                 />
               </div>
+              <p class="auth-msg-erro" id="cadastrar-senha-msg">
+                Campo obrigatório
+              </p>
             </div>
             <button type="button" id="cadastrar-btn">Cadastrar</button>
+            <p class="auth-msg-erro" id="cadastrar-msg-dinamica"></p>
           </form>
         </div>
       </div>

@@ -2,13 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/global.css" />
     <title>Mobilidade Urbana</title>
@@ -32,7 +42,11 @@
       </button>
     </header>
     <main>
-      <img class="imagem-mapa" src="../public/img/map.png" alt="" />
+      <div
+        id="map"
+        style="width: 100vw; height: calc(100vh - 3.5rem); margin-top: 3.5rem"
+      ></div>
+
       <nav>
         <a href="pesquisar.html">
           <img src="../public/icons/pesquisar-icon.svg" alt="" />
@@ -40,7 +54,7 @@
         <a href="pesquisar.html">
           <img src="../public/icons/ponto-mapa-icon.svg" alt="" />
         </a>
-        <a href="nova-denuncia.html">
+        <a href="registrar-denuncia.html">
           <img src="../public/icons/mais-icon.svg" alt="" />
         </a>
       </nav>
@@ -71,18 +85,18 @@
     </section>
     <section class="perfil-container">
       <div class="perfil-header">
-        <h2>Perfil</h2>
+        <h2 id="perfil-titulo">Perfil</h2>
         <button id="fechar-perfil">
           <img src="../public/icons/fechar-icon.svg" alt="" />
         </button>
       </div>
       <div class="perfil-separator"></div>
       <nav class="perfil-content">
-        <a href="auth.html">
+        <a href="auth.html" id="entrar-btn">
           <img src="../public/icons/entrar-icon.svg" alt="" />
           <p>Entrar</p>
         </a>
-        <a href="">
+        <a href="" id="sair-btn">
           <img src="../public/icons/sair-icon.svg" alt="" />
           <p>Sair</p>
         </a>
@@ -90,5 +104,38 @@
     </section>
 
     <script src="../js/app.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoibGFyaXNzYW9saXZlaXJheiIsImEiOiJjbTN4cjdyNWcwN2puMm5wdnJwMmE1MGc3In0.V5pDz0YyrWpHvJW4krf32Q";
+      const map = new mapboxgl.Map({
+        container: "map", // container ID
+        style: "mapbox://styles/mapbox/streets-v12", // style URL
+        center: [-44, -20], // starting position [lng, lat]
+        zoom: 10, // starting zoom
+      });
+      map.addControl(new mapboxgl.NavigationControl());
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          ({ coords }) => {
+            const userCoordinates = [coords.longitude, coords.latitude];
+
+            map.setCenter(userCoordinates);
+
+            new mapboxgl.Marker().setLngLat(userCoordinates).addTo(map);
+          },
+          (error) => {
+            console.error("Erro ao obter localização:", error.message);
+          },
+          {
+            enableHighAccuracy: true, // Solicita alta precisão
+            timeout: 5000, // Tempo limite
+            maximumAge: 0, // Não usa localização em cache
+          }
+        );
+      } else {
+        console.error("Geolocalização não é suportada pelo navegador.");
+      }
+    </script>
   </body>
 </html>

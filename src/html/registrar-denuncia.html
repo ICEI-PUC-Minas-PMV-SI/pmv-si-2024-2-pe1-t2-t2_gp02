@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/registrar-denuncia.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <title>Informações</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="../public/icons/seta-sair-icon.svg" alt="" />
+      </a>
+      <h2>Nova Denúncia</h2>
+      <div></div>
+    </header>
+    <main>
+      <div class="nova-denuncia-content">
+        <form id="nova-denuncia-form">
+          <div>
+            <label>
+              <p>Título</p>
+              <input
+                type="text"
+                placeholder="Digite o título da denúncia"
+                id="nova-denuncia-titulo"
+              />
+              <p class="msg-erro" id="nova-denuncia-titulo-erro">
+                O título da denúncia é obrigatório.
+              </p>
+            </label>
+          </div>
+
+          <div>
+            <label>
+              <p>Descrição</p>
+              <textarea
+                placeholder="Descreva o ploblema encontrado"
+                name="nova-denuncia-descricao"
+                id="nova-denuncia-descricao"
+              ></textarea>
+              <p class="msg-erro" id="nova-denuncia-descricao-erro">
+                A descrição da denúncia é obrigatória.
+              </p>
+            </label>
+          </div>
+
+          <div>
+            <p>Foto do Local <span>(opcional)</span></p>
+            <label for="nova-denuncia-foto">
+              <p class="nova-denuncia-foto-btn">
+                <img src="../public/icons/imagem-icon.svg" alt="" />
+                Selecionar Foto
+              </p>
+              <input type="file" id="nova-denuncia-foto" />
+            </label>
+            <img src="" alt="" id="preview-foto-local" />
+          </div>
+
+          <div>
+            <label>
+              <p>Localização</p>
+              <!-- <input
+                type="text"
+                placeholder="Digite o endereço da denúncia"
+                id="nova-denuncia-localizacao"
+              /> -->
+            </label>
+            <p class="localizacao-btn" id="localizacao-atual-btn">
+              <img src="../public/icons/ponto-mapa-icon-black.svg" alt="" />
+              Usar localização atual
+            </p>
+            <p class="msg-erro" id="nova-denuncia-localizacao-erro">
+              Clique no botão para utilizar a sua localização atual.
+            </p>
+            <div id="mapa-nova-denuncia"></div>
+          </div>
+        </form>
+        <div class="nova-denuncia-btn-container">
+          <button type="button" id="nova-denuncia-btn">
+            <p id="nova-denuncia-btn-text">Registrar Denúncia</p>
+          </button>
+          <div class="nova-denuncia-btn-loading-container">
+            <div id="nova-denuncia-btn-loading"></div>
+          </div>
+          <p class="msg-erro" id="msg-erro-dinamica"></p>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../js/nova-denuncia.js"></script>
+  </body>
+</html>

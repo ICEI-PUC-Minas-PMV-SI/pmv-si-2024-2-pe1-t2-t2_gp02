@@ -35,15 +35,15 @@
     <main>
       <img class="imagem-mapa" src="../public/img/map.png" alt="" />
       <nav>
-        <button>
+        <a>
           <img src="../public/icons/pesquisar-icon.svg" alt="" />
-        </button>
-        <button>
+        </a>
+        <a>
           <img src="../public/icons/ponto-mapa-icon.svg" alt="" />
-        </button>
-        <button>
+        </a>
+        <a>
           <img src="../public/icons/mais-icon.svg" alt="" />
-        </button>
+        </a>
       </nav>
     </main>
 
@@ -106,8 +106,12 @@
               </p>
             </div>
             <button type="button" id="nova-denuncia-btn">
-              Registrar Denúncia
+              <p id="nova-denuncia-btn-text">Registrar Denúncia</p>
             </button>
+            <div class="nova-denuncia-btn-loading-container">
+              <div id="nova-denuncia-btn-loading"></div>
+            </div>
+            <p class="msg-erro" id="msg-erro-dinamica"></p>
           </form>
         </div>
       </div>

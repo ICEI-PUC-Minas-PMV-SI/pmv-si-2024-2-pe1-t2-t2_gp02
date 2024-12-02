@@ -1,3 +1,5 @@
+const baseURL = "http://localhost:3000";
+
 const denuncias = [
   {
     id: "1",
@@ -67,11 +69,48 @@ const denuncias = [
   },
 ];
 
-// CARREGAR DENÚNCIAS DA PESQUISA
-let htmlContent = "";
+const listaDenuncias = [];
+let listaPesquisa = [];
 
-denuncias.forEach((item) => {
-  htmlContent += `
+document.addEventListener("DOMContentLoaded", async () => {
+  const resp = await fetch(`${baseURL}/denuncias`);
+  const data = await resp.json();
+
+  for (let item of data) {
+    listaDenuncias.push(item);
+  }
+
+  let htmlContent = "";
+  listaDenuncias.forEach((item) => {
+    htmlContent += `
+<div class="resultado">
+<h3 class="resultado-titulo">${item.titulo}</h3>
+<p class="resultado-descricao">${item.descricao}</p>
+<div>
+<img src="../public/icons/ponto-mapa-icon-black.svg" alt="">
+<p class="resultado-endereco">${item.logradouro}, ${item.numero}</p>
+</div>
+</div>
+`;
+  });
+
+  document.querySelector(".resultados-container").innerHTML = htmlContent;
+});
+
+document.getElementById("pesquisa-input").addEventListener('input', async () => {
+  const valorInput = document.getElementById("pesquisa-input").value.trim().toLowerCase();
+
+  // Limpa a lista de pesquisa antes de começar a nova filtragem
+  listaPesquisa = listaDenuncias.filter((denuncia) => 
+    denuncia.titulo.toLowerCase().includes(valorInput) ||
+    denuncia.descricao.toLowerCase().includes(valorInput) ||
+    denuncia.logradouro.toLowerCase().includes(valorInput) ||
+    denuncia.estado.toLowerCase().includes(valorInput) ||
+    denuncia.cidade.toLowerCase().includes(valorInput)
+  );
+
+  // Gera o HTML dinâmico com os resultados filtrados
+  let htmlContent = listaPesquisa.map((item) => `
     <div class="resultado">
       <h3 class="resultado-titulo">${item.titulo}</h3>
       <p class="resultado-descricao">${item.descricao}</p>
@@ -80,7 +119,11 @@ denuncias.forEach((item) => {
         <p class="resultado-endereco">${item.logradouro}, ${item.numero}</p>
       </div>
     </div>
-  `;
+  `).join("");
+
+  // Atualiza o container com os novos resultados ou exibe uma mensagem se nenhum resultado for encontrado
+  document.querySelector(".resultados-container").innerHTML = 
+    htmlContent || `<p class="sem-resultados">Nenhuma denúncia encontrada.</p>`;
 });
 
-document.querySelector(".resultados-container").innerHTML = htmlContent;
+// CARREGAR DENÚNCIAS DA PESQUISA

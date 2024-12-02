@@ -103,7 +103,7 @@ main {
   -webkit-line-clamp: 3;        
   overflow: hidden;             
   text-overflow: ellipsis;      
-  height: calc(1.25em * 3);      
+  max-height: calc(1.25em * 3);      
   line-height: 1.25em;   
   
   margin-top: .5rem;

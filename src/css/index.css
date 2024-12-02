@@ -6,10 +6,15 @@
 
 body {
   overflow: hidden;
+  max-height: 100%;
 }
 
 header {
-  height: 4.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5rem;
 
   display: flex;
   align-items: center;
@@ -25,10 +30,13 @@ header img {
 
 main .imagem-mapa {
   position: fixed;
-  top: 4.25rem;
+  top: 3.5rem;
   bottom: 0;
   left: 0;
   right: 0;
+
+  width: 100%;
+  height: 100%;
 
   display: flex;
   align-items: center;
@@ -38,7 +46,7 @@ main .imagem-mapa {
 }
 
 main nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
 
@@ -74,7 +82,7 @@ main nav a:nth-child(2) img {
   display: none;
 
   position: absolute;
-  top: 4.25rem;
+  top: 3.5rem;
   left: 0;
 
   width: 50%;
@@ -137,8 +145,9 @@ main nav a:nth-child(2) img {
   display: none;
 
   position: absolute;
-  top: 4.25rem;
+  top: 3.5rem;
   right: 0;
+  z-index: 100;
 
   width: 50%;
   margin: .5rem;
